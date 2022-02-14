@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ::selection {
+    color: black;
+    background:#f9e0078f;
+  } */
+ 
+  .border{
+    background-color: black;
+    
+
+    height: 100%;
+    
+
+    /* position: absolute; 
+    display: flex;      
+    margin-left: 50px;
+    margin-right: 50px; */
+  }
+
+  /* .main {
+      background-color:black;
+      width: 1200px;
+      height: 100vh;
+  
+      
+     
+  } */
+  /* .container{    
+  
+    background: #f9e0078f;
+    padding: 20px 25px 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: black;
+    max-width: 80%;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+  }
+ 
+  .container header{
+    font-size: 50px;
+    font-weight:1000;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black
+  } */
+  /* .select-box .title{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  .select-box .options{
+    display: flex;
+    width: 100%;
+  }
+  .options button{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    border: none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .options button:hover,
+  .btn button:hover{
+    transform: scale(0.96);
+  }
+  .options button.playerX{
+    margin-right: 5px;
+  }
+  .options button.playerO{
+    margin-left: 5px;
+  }
+  .select-box .credit{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .select-box .credit a{
+    color: #56baed;
+    text-decoration: none;
+  }
+  .select-box .credit a:hover{
+    text-decoration: underline;
+  } */
+
