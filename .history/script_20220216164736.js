@@ -104,7 +104,7 @@ function returnData(input) {
 
 fibonLeft.addEventListener("click", function() {
     document.getElementById("inputNumFibo").value = "";
-    n = 0;
+    value = 0;
 });
 
 let n = 0;
