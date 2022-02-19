@@ -11,34 +11,50 @@ const equals = document.querySelector(".equals");
 const fibonLeft = document.querySelector(".fibonLeft");
 const fibonRight = document.querySelector(".fibonRight");
 
-
 function Counter() {
     let count = 0;
+
     this.up = function () {
         return ++count;
     }
+
     this.down = function () {
         return --count;
     }
+
     this.reset = function () {
         return count = 0;
     }
 }
 
 let counter = new Counter();
-leftButton.addEventListener("click", function() {
-    num.innerHTML = counter.down();
-});
+leftButton.addEventListener("click", function minus() {
+    return counter.down();
+}
+rightButton.addEventListener("click", function plus() {
+    //     i++;
+  num.innerHTML = counter.u
+    // });
+// let i = 0;
+// leftButton.addEventListener("click", function minus() {
+//     i--;
+//     num.innerHTML = i;
+// });
 
-rightButton.addEventListener("click", function() {  
-   num.innerHTML = counter.up();
-    });
+// rightButton.addEventListener("click", function plus() {
+//     i++;
+//     num.innerHTML = i;
+// });
 
-centerButton.addEventListener("click", function() {
-    
-    num.innerHTML = counter.reset();
-
-});
+// centerButton.addEventListener("click", function reset() {
+//     i = 0;
+//     num.innerHTML = i;
+//     inputNum1.value = "";
+//     plyus.innerText = "";
+//     inputNum2.value = "";
+//     equals.innerText = "";
+//     valueOfSum.innerText = "";
+// });
 
 
 //////////

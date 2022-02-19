@@ -14,12 +14,15 @@ const fibonRight = document.querySelector(".fibonRight");
 
 function Counter() {
     let count = 0;
+
     this.up = function () {
         return ++count;
     }
+
     this.down = function () {
         return --count;
     }
+
     this.reset = function () {
         return count = 0;
     }

@@ -6,42 +6,33 @@ const addAB = document.querySelector(".addAB");
 const valueOfSum = document.getElementById("valueOfSum");
 const inputNum1 = document.getElementById("inputNum1");
 const inputNum2 = document.getElementById("inputNum2");
-const plyus = document.querySelector(".plyus");
+const plus = document.querySelector(".plyus");
 const equals = document.querySelector(".equals");
 const fibonLeft = document.querySelector(".fibonLeft");
 const fibonRight = document.querySelector(".fibonRight");
 
 
-function Counter() {
-    let count = 0;
-    this.up = function () {
-        return ++count;
-    }
-    this.down = function () {
-        return --count;
-    }
-    this.reset = function () {
-        return count = 0;
-    }
-}
-
-let counter = new Counter();
-leftButton.addEventListener("click", function() {
-    num.innerHTML = counter.down();
+let i = 0;
+leftButton.addEventListener("click", function minus() {
+    i--;
+    num.innerHTML = i;
 });
 
-rightButton.addEventListener("click", function() {  
-   num.innerHTML = counter.up();
-    });
-
-centerButton.addEventListener("click", function() {
-    
-    num.innerHTML = counter.reset();
-
+rightButton.addEventListener("click", function plus() {
+    i++;
+    num.innerHTML = i;
 });
 
+centerButton.addEventListener("click", function reset() {
+    i = 0;
+    num.innerHTML = i;
+    inputNum1.value = "";
+    plyus.innerText = "";
+    inputNum2.value = "";
+    equals.innerText = "";
+    valueOfSum.innerText = "";
+});
 
-//////////
 function add(a) {
     return function name(b) {
         return a + b;

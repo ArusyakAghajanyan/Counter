@@ -14,27 +14,30 @@ const fibonRight = document.querySelector(".fibonRight");
 
 function Counter() {
     let count = 0;
+
     this.up = function () {
         return ++count;
     }
+
     this.down = function () {
         return --count;
     }
+
     this.reset = function () {
         return count = 0;
     }
 }
 
 let counter = new Counter();
-leftButton.addEventListener("click", function() {
+leftButton.addEventListener("click", function minus() {
     num.innerHTML = counter.down();
 });
 
-rightButton.addEventListener("click", function() {  
+rightButton.addEventListener("click", function plus() {  
    num.innerHTML = counter.up();
     });
 
-centerButton.addEventListener("click", function() {
+centerButton.addEventListener("click", function reset() {
     
     num.innerHTML = counter.reset();
 
